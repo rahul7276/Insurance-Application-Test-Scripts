@@ -3,7 +3,7 @@
 
    <test name = "testng example">
       <classes>
-         <class name = "capstone.insurancetesting.AppTest" />
+         <class name = "org.test.InsureMeTest.AppTest" />
       </classes>
    </test>
 </suite>
