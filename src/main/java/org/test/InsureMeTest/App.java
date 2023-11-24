@@ -37,7 +37,7 @@ public class App
   	  	System.out.println("Test scripts are executed");
   	  	TakesScreenshot scrShot = ((TakesScreenshot)driver);
   	  	File srcFile = scrShot.getScreenshotAs(OutputType.FILE);
-  	  	File destFile = new File("/var/lib/jenkins/workspace/capstone-project-test/Tests.jpg");
+  	  	File destFile = new File("/var/lib/jenkins/workspace/Screenshot.jpg");
   	  	FileUtils.copyFile(srcFile, destFile);
   	  	driver.quit();
     }
